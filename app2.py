@@ -6,7 +6,7 @@ st.set_page_config(page_title="Arnob Majumder Portfolio", layout="wide")
 
 # ------------------ SIDEBAR ------------------
 with st.sidebar:
-    profile_image = Image.open("Arnob Majumder.jpg")  # Replace with your actual profile image
+    profile_image = Image.open("Arnob Majumder.JPG")  # Replace with your actual profile image
     st.image(profile_image, width=200)
 
     st.title("Arnob Majumder")
